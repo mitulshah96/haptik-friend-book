@@ -138,8 +138,6 @@ input[type='search'] {
 }
 
 input[type='search'] {
-    background: url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png)
-        no-repeat 9px center;
     border: solid 1px #ddd;
     padding: 9px 10px 9px 12px;
     border-radius: 10em;
@@ -148,6 +146,7 @@ input[type='search'] {
     cursor: pointer;
     transition: all 0.5s;
     margin-right: 20px;
+    width: 50px;
 }
 input[type='search']:focus {
     width: 200px;
